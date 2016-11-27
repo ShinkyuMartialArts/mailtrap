@@ -1,0 +1,32 @@
+{
+    "name": "shinkyu/mailtrap",
+    "description": "A client for the Mailtrap API",
+    "keywords": ["Mailtrap", "Mailtrap Api", "Emails"],
+    "license": "MIT",
+    "homepage": "https://github.com/ShinkyuMartialArts/mailtrap",
+    "authors": [
+        {
+            "name": "Toyin Butler",
+            "email": "toyin@shinkyukarate.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ShinkyuMartialArts\\Mailtrap\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShinkyuMartialArts\\Mailtrap\\Tests\\": "tests/src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "mockery/mockery": "dev-master"
+    }
+}
